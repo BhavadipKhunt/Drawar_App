@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_150sdp"
+    android:gravity="bottom"
+    android:padding="@dimen/_11sdp"
+    android:background="#0626D3"
+    >
+<ImageView
+    android:layout_width="@dimen/_60sdp"
+    android:layout_height="@dimen/_60sdp"
+    android:src="@drawable/ic_launcher_background"
+    ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bhavadip Khunt"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/white"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bhvadip123@gmail.com"
+        android:textColor="@color/white"
+        ></TextView>
+</LinearLayout>
