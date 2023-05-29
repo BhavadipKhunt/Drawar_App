@@ -3,15 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Frag.home">
 
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="@dimen/_20sdp"
-        android:layout_gravity="center"
-        android:textAlignment="center"
-        android:text="Home" />
 
 </LinearLayout>

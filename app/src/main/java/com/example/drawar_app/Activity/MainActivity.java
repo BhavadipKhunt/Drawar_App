@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.MenuItem;
 
+
 import com.example.drawar_app.Frag.home;
 import com.example.drawar_app.Frag.logout;
 import com.example.drawar_app.Frag.setting;
@@ -44,11 +45,13 @@ public class MainActivity extends AppCompatActivity {
                 {
                     addfragment(new home());
                     drawerLayout.closeDrawer(Gravity.LEFT);
+
                 }
                 if (item.getItemId()==R.id.setting)
                 {
                     addfragment(new setting());
                     drawerLayout.closeDrawer(Gravity.LEFT);
+
                 }
                 if (item.getItemId()==R.id.Logout)
                 {
@@ -63,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
     private void addfragment(Fragment fragment) {
         FragmentManager manager=getSupportFragmentManager();
         FragmentTransaction transaction=manager.beginTransaction();
-        transaction.add(R.id.frame,fragment);
+        transaction.replace(R.id.frame,fragment);
         transaction.commit();
     }
 }
